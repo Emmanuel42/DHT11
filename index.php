@@ -3,7 +3,7 @@
 <head>
 	<title>DHT11</title>
 	<meta charset="utf-8">
-	<meta http-equiv="refresh" content="2">
+	<meta http-equiv="refresh" content="20">
 	<link rel="stylesheet" type="text/css" href="main.css">
 </head>
 
