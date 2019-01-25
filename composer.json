@@ -1,0 +1,12 @@
+{
+	"autoload" : {
+		"psr-4" : {
+			"Manu\\DHT11\\" : "src"
+		}
+	},
+	"name" : "Manu/DHT11",
+	"require" : {
+		"php" : ">=7.1",
+		"phpunit/phpunit" : "~6.5.13"
+	}
+}
