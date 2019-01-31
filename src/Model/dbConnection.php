@@ -2,16 +2,16 @@
 
 namespace Manu\DHT11\Model;
 
-require 'config.php';
+require '../inc/config.php';
 
-class Manager {
+class DbConnection {
     
     private $host;
     private $dbname;
     private $user;
     private $password;
     
-    function __construct(){
+    public function __construct($host, $dbname, $user, $password){
         
         $this->host = $host;
         $this->dbname = $dbname;
@@ -20,7 +20,7 @@ class Manager {
         
     }
     
-    protected function dbConnect() {
+    protected function dbConnection($host, $dbname, $user, $password) {
         
         return new \PDO('mysql:host=$host;dbname=$dbname;charset=utf8', '$user', '$password');
     }
